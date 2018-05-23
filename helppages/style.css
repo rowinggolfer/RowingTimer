@@ -1,0 +1,28 @@
+/*style for rowing timer help pages
+*/
+
+/* main links */
+a {color: #035FFF;}
+a:hover {color: #BBBFC2}
+a:active {color: #BBBFC2}
+
+
+/* menu links */
+*a.menu {text-decoration:none; color: #035FFF;}
+a.menu:hover {color: #F4785E;}
+a.menu:active {color: #F4785E;}
+/* not sure *a:visited {color: #ACC2FE;} */
+
+/*headings*/
+
+h1 {color: #035FFF;}
+h2 {color: #035FFF;}
+h3 {color: #035FFF;}
+
+/*MENU*/
+
+body.menu {font-size:10pt; color:#ffffff;}
+
+
+/* didn't like this......  a:visited {color: black;} */ 
+

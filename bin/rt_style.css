@@ -1,0 +1,27 @@
+
+/* stylesheet for media="all" resultstable pages */
+
+body{font-size:12px;}
+ul{text-align:center;} /* the links on these pages are an 'unordered list' */
+li{display:inline;padding-right:20px;} /* displays the links horizontally */
+
+
+a {color:blue;text-decoration:none;}
+#printlink{padding-top:5px;padding-right: 4px;padding-left:30px; 
+	background-image: url(printer.jpg);background-repeat: no-repeat;
+	background-position: center left;}
+a:hover{color:red;}
+#printlink:hover {color:#800000;}
+
+table{border:3px solid #000;border-collapse:collapse;width:100%;font-size:12px;}
+
+tr.ruled{background:#9cf;} /* this is the backcolor called by the javascipt mouseover function*/
+
+th,td{border:1px solid #ccc;border-collapse:collapse;text-align:center;}
+thead th,tfoot td{background:#ddd;} /*table header and footer*/
+
+td.cat{font-style:italic; font-weight:bold; text-align:center;}
+
+.header1,.header2{display:none;}
+
+.header3{font-weight:bold;}

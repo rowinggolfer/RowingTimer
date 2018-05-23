@@ -1,0 +1,43 @@
+*= important item
+
+Version 3.4.8
+	corrected msgbox option when saving HTML results folder (it asked if you wanted to overwrite an existing folder.. but did so regardless of the answer)
+	made sure that "n/a" was added to the hcp time column as well as adj time column. this corrected a fault with autowinners.
+	finally, found an removed an obscure bug which created problems if user input into datagrids co-incided with an input of times/crews.
+
+Version 3.4.7(Beta)
+*	Fixed Save As error introduced in 3.4.6 (due to the underscore character in the menu!)
+	manual data entry auto minute/ autohour made more powerful.
+	
+Version 3.4.6(Beta)
+	Menu extended to give more user options without cluttering up the UI (it's cluttered enough!!)
+*	ClubTable wizard added - allows auto scratching of crews etc....
+	offsettimes accessed by menu - users complained about the radio select (for start..split1 etc) not being intuitive.
+*	manual entry wizard added for start,split1,split2,finish. (for entering backup data - or even standalone??)
+	
+Version 3.4.5
+*	altered the way results are presented. I have separated "Penalties" and "Handicaps". Overall position takes only penalties into account.
+	added a boat class sort.	
+	csv files added to HTML output
+*	stopped sorting categories by alphabetical order. For now just take the order from the crew table. I think this should work better, and gives the user _some_ control over the order of crews in the output. 
+However I may still work on this??
+	minor error that menu items still work when a tab is locked - cleared this for now.
+*	coded for "overall position", ie 1st, 2nd, 3rd, 4th= etc.. 	
+
+Version 3.4.4
+	Added a version history (what you're reading!!)
+*	Improved the method of event handling for f1,f2,f3 and f4 keys to record timing events - this also freed up resources to improve the processing speed of the program.
+	Handicap tab renamed "Veterans" and made functional 
+*	HTML output changed to a folder containing a separate javascript file and stylesheet.
+*	Added a form to check CSV file input. (Suggestion - David Marsh, Wallingord RC)
+
+Version 3.4.3
+	Set up a separate tab for "wizards"
+*	Improved file open/save. - this now works in a more standard fashion.
+	New startup form - now just a picture.
+*	Allow file registration, such that a double click on a rot file took you straight into it.
+	Unchecked all boxes on import tab after an import.
+
+Version 3.4.0 released October 2006
+	Improved HTML output to include a stylesheet and a Javascript "ruler"
+*	Corrected int 16 error with Category sorting of very large events.

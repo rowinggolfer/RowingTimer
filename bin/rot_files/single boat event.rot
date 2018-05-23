@@ -1,0 +1,26 @@
+file version 1.2
+<<header_start>>
+Example Event
+Division 2
+An Obscure Stretch of Water Somewhere
+A Generous Benefactor
+30 August 2006
+3000m
+<<header_ends>>
+<<crewform_start>>
+1	ABC	M R2 2-	Wallace	0	0	False	False		
+<<crewform_ends>>
+<<start_start>>
+23:45:32.78	1	True	
+<<start_ends>>
+<<split1_start>>
+23:45:40.04	1	True	
+23:45:44.14		False	
+<<split1_ends>>
+<<split2_start>>
+23:45:50.28	1	True	
+<<split2_ends>>
+<<finish_start>>
+23:45:57.53	1	True	
+<<finish_ends>>
+<<end_of_file>>

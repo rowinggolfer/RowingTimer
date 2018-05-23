@@ -1,0 +1,207 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Rowing Timer Help pages.</title>
+	</head>
+	<body>
+		<h1>Rowing Timer - Description and Help</h1>
+		Thankyou for trying and using Rowing Timer.<br />
+		This software is freeware, please distribute freely.<br />
+		I hope you will find it to be a flexible and useful piece of software for 
+		timing of processional head races.<br />
+		<br />
+		Though still a work in progress, I believe that as it stands, it works OK. I 
+		tested it at a 180 boat head race in Inverness on Saturday 20th, with just one 
+		computer, and mobile phones along the course.
+		<br />
+		<br />
+		Most of what the program does should be self-explanatory. In common with usual 
+		procedures for this type of race, all times are measured from an arbitrary 
+		"Synchronisation point". By default I have set this to be when the first crew 
+		button is pressed. It can, however be set well in advance, or changed at any 
+		time (in which case any recorded times are rolled back). I recommend you use 
+		this facility to synchronise a backup timer (eg. wristwatch or coaches 
+		stopwatch).<br />
+		<br />
+		There are 2 basic ways to use the program.
+		<ul>
+			<li>
+				1. A single computer with the operator getting input from observers along the 
+				course (mobile phones/radios etc..).
+			</li>
+			<li>
+				2. Multiple computers at points along the course.... and the data from each 
+				collected into a spreadsheet for sorting.<br />
+				This is advisable if you still have crews starting as earlier crews are 
+				arriving at subsequent timing points, otherwise your clicking can get a bit 
+				frantic! Obviously, in this case ensure you "synchronise" these computers at 
+				some point (afterwards is OK provided you haven't exited the program on 
+				either).<br />
+			</li>
+			<li>
+				3. Any other combination of the above!
+			</li>
+		</ul>
+		Below is a brief description of the three user interface forms that are 
+		generated, along with a few notes on the more advanced and hidden features.
+		<br />
+		I hope this covers everything. Do let me know of any problems, and I would be 
+		delighted to get feedback of any type.<br />
+		<br />
+		It is my intention to make a commercial version of this program, with greater 
+		functionality of this program to allow for better accuracy, printing of 
+		results, immediate application of Veteran handicaps etc.
+		<br />
+		This would not be freeware, but licensed for a £10 donation to Inverness Rowing 
+		Club.<br />
+		If you would like to be informed how this is developing, or contirubute with 
+		ideas and suggestions, <a href="mailto:rowingtimer@invernessrowingclub.co.uk">Send 
+			me an email.</a>
+		<br />
+		<br />
+		Thankyou for your time!<br />
+		Neil Wallace 23rd November 2004.<br />
+		<br />
+		<table width="100%">
+			<tr>
+				<td>
+					<h3>Start Form.</h3>
+					This is the main form for the program, and is the control for all the others. 
+					Consequently if you exit this form, you shut all others and leave the program. 
+					I have, therefore, protected it with an "Are you Sure?" question.<br />
+					<br />
+					Regardless, when you do exit, all information generated is transferred on your 
+					clipboard (more on this later).<br />
+					<br />
+					When using the program, the first thing you should do is adjust the minimum and 
+					maximum crew numbers to suit the event (or division) that you are timing. 
+					Defaults are 1 and 50 respectively, but I have allowed and tested the program 
+					for up to 500 crews!<br />
+					Crew buttons can be added or removed at any time.<br />
+					The check boxes (and stopwatch menu) will make the "watches" appear and 
+					disappear. There are 4 watches available to you.... Start, Split 1, Split 2, 
+					and Finish.<br />
+					You may decide to use them all, or maybe just one or two.
+					<br />
+					The watches keep running and updating in the background, and you can open and 
+					close these at will.
+					<br />
+					I have defaulted the watches to appear in a grid along the top. With a desktop 
+					of over 1024 wide this works well. You can, of course, move the forms around. 
+					However, should you wish to realign them then at any time, there is a menu 
+					option on the startform to "align to grid".
+					<br />
+					<br />
+					Like the watches, the Results form and eventlog can be opened and hidden at any 
+					time.
+				</td>
+				<td width="310">
+					<img src="images/startscreenshot.jpg" width="300" height="319" alt="" border="0" align="top">
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td width="260">
+					<img src="images/stopwatchscreenshot.jpg" width="256" height="400" alt="" border="0"
+						align="top">
+				</td>
+				<td>
+					<h3>Stopwatch Form</h3>
+					This form has shows the time elapsed since synchronisation.
+					<br />
+					<br />
+					It has a collection of numbered buttons. These relate to the crew numbers you 
+					entered initially.<br />
+					If you have more than 50 crews, a scroll bar will appear to allow easy 
+					navigation.<br />
+					<br />
+					click on a crew button as the crew arrives at the relevant point. The time is 
+					recorded in the relevant column, and the button becomes inactive.<br />
+					<br />
+					One other button is on the stopwatch forms. It is "PANIC button" A click on 
+					this button records adds a new line of data to the results, and records a time 
+					in the relevant column.<br />
+					It is obviously hoped that you are able to identify a crew and click on the 
+					correct button swiftly, but this provides an alternative should a bow number be 
+					unclear or its value unexpected for whatever reason. When you add a time to the 
+					results in this way, you will need to make a note of why and manually adjust 
+					the results later.<br />
+					<br />
+					<br />
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td><h3>Results Form</h3>
+					Below is a sample results form from a small (7 boat) head race.<br />
+					Only the Start and Finish times were entered.<br />
+			</tr>
+			<tr>
+				<td>
+					<img src="images/resultstablescreenshot.jpg" width="808" height="264" alt="" border="0">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Crew 5 lost their bow number, so the "PANIC! button" was used at the finish 
+					point. (this button can be used at any time to record a time). If you have 
+					three crews crossing a point together it is the easiest way of recording times 
+					close together.
+					<br />
+					As they were the only unknown result, this was easily altered in excel, along 
+					with a comment from the Umpire<br />
+				</td>
+			</tr>
+			<tr>
+				<td><h3>Step one</h3>
+					- "paste" into Excel.</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="images/excelscreenshot.jpg" width="645" height="385" alt="" border="0">
+				</td>
+			<tr>
+				<td><h3>
+						Step two</h3>
+					- As Rowing Timer time values are in Excel format, the usual equations can be 
+					used to calculate time differences.
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="images/excelscreenshot2.jpg" width="596" height="195" alt="" border="0" align="left">
+				</td>
+			</tr>
+			<tr>
+				<td><h3>Final Step</h3>
+					- with this result.<br />
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<img src="images/excelscreenshot3.jpg" width="594" height="210" alt="" border="0" align="middle">
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<img src="images/eventlogscreenshot.jpg" alt="" border="0" align="left">
+				</td>
+				<td>
+					One Last thing.... there is an eventlog which records everything, and can be 
+					saved at any time. Hopefully you'll never need it, but it can provide further 
+					information. You are prompted to save this automatically on exit of the 
+					program.
+					<br />
+					<br />
+					<img src="images/exitlogscreenshot.jpg" alt="" border="0" align="middle">
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

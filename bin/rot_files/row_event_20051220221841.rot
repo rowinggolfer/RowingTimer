@@ -1,0 +1,60 @@
+file version 1.2
+<<header_start>>
+Example Event
+Division 2
+An Obscure Stretch of Water Somewhere
+A Generous Benefactor
+20 December 2005
+3000m
+<<header_ends>>
+<<crewform_start>>
+50	AUBC	M R1 8+	Williamson	0	0	False	False		
+51	Clydesdale	M R1 8+	Wells	0	0	False	False		
+52	GRC	M R1 8+	Walsh	0	0	False	False		
+53	GRC	M R1 8+	Smith	0	0	False	False		
+54	StAUBC	M R2 8+	Townshend	0	0	False	False		
+55	CSRC	M R2 8+	Taggart	0	0	False	False		
+56	SPRC	M R2 8+	MacSween	0	0	False	False		
+57	SABC	F Open 8+ 	Edwards	0	0	False	False		
+58	Clydesdale	F Open 8+	Ord	0	0	False	False		
+59	CSRC	F R1 8+	Geddes	0	0	False	False		
+60	SPRC	F R2 8+	Morris	0	0	False	False		
+61	SPRC	F R2 8+	Jones	0	0	False	False		
+62	Inverness	M Novice 8+	Ward	0	0	False	False		
+63	Inverness/Aberdeen	Mixed R2 8+	Wallace	0	0	False	False		
+64	SABC/Clyde	Mixed R2 8+	Edwards	0	0	False	False		
+65	SABC	M Open 4-	Giles	0	0	False	False		
+66	Clyde	M Open 4-	Haining	0	0	False	False		
+67	Itchen Imperial	M R2 4-	Wells	0	0	False	False		
+68	Inverness	F Vet C 4x	Hunter	20	0	False	False		
+69	Aberdeen	M Open 1x	Murray	0	0	False	False		
+70	AUBC	M Open 1x	Sinclair	0	0	False	False		
+71	SABC	M Open (lwt) 1x	Collings	0	0	False	False		
+72	Inverness	M Vet C 2-	Sinclair	21	0	False	False		
+73	Inverness	M Vet D 2-	Baker	40	0	False	False		
+74	Grosvenor	M Vet C 1x	McDonald	26	0	False	False		
+75	Aberdeen	M Vet C 1x	Wallace, R	26	0	False	False		
+76	Aberdeen	M Vet C 1x	Wallace, G	26	0	False	False		
+77	Staines	M Vet E 1x	Douglas	50	0	False	False		
+78	Inverness	M J16 1x	Sinclair	0	0	False	False		
+79	Aberdeen	M J16 1x	Chalmers	0	0	False	False		
+<<crewform_ends>>
+<<start_start>>
+22:18:08.90	50	True	
+22:18:09.26	51	True	
+22:18:09.45	52	True	
+22:18:09.68	53	True	
+22:18:09.84	54	True	
+<<start_ends>>
+<<split1_start>>
+<<split1_ends>>
+<<split2_start>>
+<<split2_ends>>
+<<finish_start>>
+22:18:21.06	50	True	
+22:18:21.37	51	True	
+22:18:21.54	52	True	
+22:18:21.79	53	True	true
+22:18:21.93	54	True	
+<<finish_ends>>
+<<end_of_file>>

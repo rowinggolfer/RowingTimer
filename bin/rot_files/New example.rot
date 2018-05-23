@@ -1,0 +1,139 @@
+file version 1.1
+<<header_start>>
+Example Event
+Division 2
+An Obscure Stretch of Water Somewhere
+A Generous Benefactor
+17 November 2005
+3000m
+<<header_ends>>
+<<crewform_start>>
+50	AUBC	M Open 8+	Williamson	0	0	False	False		
+51	Clydesdale	M Open 8+	Wells	0	0	False	False		
+52	GRC	M Open 8+	Walsh	0	0	False	False		
+53	GRC	M Open 8+	Smith	0	0	False	False		
+54	StAUBC	M R1 8+	Townshend	0	0	False	False		
+55	CSRC	M R1 8+	Taggart	0	0	True	False		
+56	SPRC	M R1 8+	MacSween	0	0	False	False		
+57	SABC	F Open 8+	Edwards	0	0	False	False		
+58	Clydesdale	F Open 8+	Ord	0	0	False	False		
+59	CSRC	F Open 8+	Geddes	0	0	False	False		
+60	SPRC	F Open 8+	Morris	0	0	False	False		
+61	SPRC	F Open 8+	Jones	0	0	False	False		
+62	Inverness	Mixed Novice 8+	Ward	0	0	False	False		
+63	Inverness/Aberdeen	Mixed Novice 8+	Wallace	0	0	False	False		
+64	SABC/Clyde	Mixed Novice 8+	Edwards	0	0	False	False		
+65	SABC	M R2 4-	Giles	0	0	False	False		
+66	Clyde	M R2 4-	Haining	0	0	False	False		
+67	Itchen Imperial	M R2 4-	Wells	0	0	False	False		
+68	Inverness	F Vet C 4x	Hunter	20	0	False	False		
+69	Aberdeen	F Vet C 4x	Murray	0	0	False	False		
+70	AUBC	M Open 1x	Sinclair	0	0	False	False		
+71	SABC	M Open 1x	Collings	0	0	False	False		
+72	Inverness	M Vet C/D 2-	Sinclair	21	0	False	False		
+73	Inverness	M Vet C/D 2-	Baker	40	0	False	False		
+74	Grosvenor	M Vet B/C 1x	McDonald	18	0	False	False		
+75	Aberdeen	M Vet B/C 1x	Wallace, R	26	0	False	False		
+76	Aberdeen	M Vet B/C 1x	Wallace, G	26	0	False	False		
+77	Staines	M Vet E 1x	Douglas	50	0	False	False		
+78	Inverness	M J16 1x	Sinclair	0	0	False	False		
+79	Aberdeen	M J16 1x	Chalmers	0	0	False	False		
+<<crewform_ends>>
+<<start_start>>
+0	17:44:23.53	True	50		
+1	17:44:46.28	True	51		
+2	17:45:01.48	True	52		
+3	17:45:18.65	True	53		
+4	17:45:33.39	True	54		
+5	17:45:48.73	True	56		
+6	17:46:02.43	True	57		
+7	17:46:12.78	True	58		
+8	17:46:28.70	True	59		
+9	17:46:40.53	True	60		
+10	17:46:48.31	True	61		
+11	17:47:00.75	True	62		
+12	17:47:09.70	True	63		
+13	17:47:20.70	True	64		
+14	17:48:13.34	True	65		
+15	17:48:28.96	True	66		
+16	17:48:39.10	True	67		
+17	17:48:50.46	True	68		
+18	17:49:04.48	True	69		
+19	17:49:15.60	True	70		
+20	17:49:25.37	True	71		
+21	17:49:39.09	False		button pressed in error	
+22	17:49:44.62	True	72		
+23	17:49:53.03	True	73		
+24	17:50:01.75	True	74		
+25	17:50:06.40	True	75		
+26	17:50:15.95	True	76		
+27	17:50:24.68	True	77		
+28	17:50:32.50	True	78		
+29	17:50:40.09	True	79		
+<<start_ends>>
+<<split1_start>>
+1	17:52:18.31	True	50		
+2	17:52:32.03	True	51		
+3	17:52:44.64	True	52		
+4	17:52:57.26	True	54		
+5	17:52:58.00	True	53		
+6	17:53:11.15	True	56		
+7	17:53:49.85	True	57		
+8	17:53:59.25	True	58		
+9	17:54:09.06	True	59		
+10	17:54:33.82	True	60		
+11	17:54:44.37	True	62		
+12	17:54:48.93	True	61		
+13	17:55:02.01	True	63		
+14	17:55:13.40	True	64		
+15	17:55:51.32	True	65		
+16	17:56:03.79	True	66		
+17	17:56:27.92	True	68		
+19	17:56:30.76	True	67		
+20	17:56:53.81	True	69		
+21	17:57:04.64	True	70		
+22	17:57:08.68	True	71		
+23	17:57:40.92	True	72		
+24	17:58:03.59	True	74		
+25	17:58:12.23	True	75		
+26	17:58:31.60	True	73		
+27	17:58:48.60	True	76		
+28	17:59:02.09	True	78		
+29	17:59:13.25	True	77		
+30	17:59:18.32	True	79		
+<<split1_ends>>
+<<split2_start>>
+<<split2_ends>>
+<<finish_start>>
+1	17:57:28.90	True	51		
+2	17:57:50.31	True	50		
+3	17:58:06.57	True	52		
+4	17:58:20.81	True	54		
+5	17:58:25.40	True	53		
+6	17:58:54.79	True	56		
+7	17:59:21.60	False			
+8	17:59:30.53	True	57		
+9	17:59:40.53	True	58		
+10	18:00:01.73	True	59		
+11	18:00:12.12	True	60		
+12	18:00:27.37	True	62		
+13	18:00:37.39	True	61		
+14	18:00:51.76	True	63		
+15	18:00:54.10	True	64		
+16	18:01:08.06	True	65		
+17	18:01:24.75	True	66		
+18	18:01:50.10	True	68		
+19	18:01:50.92	True	67		
+20	18:01:51.62	True	70		
+21	18:02:34.25	True	71		
+22	18:02:48.75	True	69		
+23	18:02:55.90	True	72		
+24	18:03:22.56	True	73		
+25	18:03:27.64	True	74		
+26	18:03:51.09	True	76		
+27	18:04:05.79	True	75		
+28	18:04:13.00	True	78		
+29	18:04:39.51	True	79		
+30	18:04:59.70	True	77		
+<<finish_ends>>
+<<end_of_file>>
